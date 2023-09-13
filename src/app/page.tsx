@@ -8,16 +8,16 @@ import {
 export default function Home() {
   return (
     <main className="">
-      <section>
+      <section className="mb-[100px] md:mb-[120px] xl:mb-[136px]">
         <Hero />
       </section>
-      <section>
+      <section className=" mb-[100px] md:mb-[120px] xl:mb-[88px] ">
         <AboutMe />
       </section>
-      <section>
+      <section className=" mb-[100px] md:mb-[120px] xl:mb-[88px] ">
         <MyWork />
       </section>
-      <section>
+      <section className="mb-[40px] xl:mb-[56px]">
         <Contact />
       </section>
     </main>

@@ -22,7 +22,7 @@ export const Button: React.FC<IButton> = ({
     <Link
       href={href}
       aria-label={ariaLabel}
-      className={`${styleColorSchema} rounded-[28px] py-[8px] px-[28px] md:py-[14px] md:px-[45px] text-button capitalize`}
+      className={`${styleColorSchema} inline-block rounded-[28px] py-[8px] px-[28px] md:py-[14px] md:px-[45px] text-button capitalize`}
     >
       {children}
     </Link>
