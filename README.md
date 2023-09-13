@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NAME OF PROJECT
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [PageSpeed Insights Report](#pagespeed-insights-report)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Design](#design/project)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### The challenge
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Users should be able to:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Users should be able to:
 
-## Learn More
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate the slider using either their mouse/trackpad or keyboard
+<!--
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![](./screenshot.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### PageSpeed Insights Report
 
-## Deploy on Vercel
+![](./pagespeed-report.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Live Site URL: [Live Site](https://manage-landing-page-seven-theta.vercel.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Typescropt](https://www.typescriptlang.org/) - Typescript
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+- [Framer Motion](https://www.framer.com/motion/) - desktop testimonials carousel
+- [React Swipeable](https://www.npmjs.com/package/react-swipeable) - mobile testimonials carousel
+
+### What I learned
+
+When faced with mobile testimonials component and how to implement finger swipe I discovered great library 'react-swipeable' , very easy to implement.
+
+### Continued development
+
+Add tablet version, in design there was only desktop and mobile, better style for tablet version.
+
+### Useful resources
+
+- [Tailwind docs](https://tailwindcss.com/docs/) - Always useful when working with tailwind.
+
+-->
+
+## Author
+
+- Linkedin - [Tomislav Sertic](https://www.linkedin.com/in/tomislav-serti%C4%87-85a0941a3/)
+- Frontend Mentor - [@tsertic](https://www.frontendmentor.io/profile/tsertic)
+- Instagram - [@tsertic5](https://www.instagram.com/tsertic5/)
+
+## Design/Project
+
+This is a solution to the [Single-page design portfolio challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/singlepage-design-portfolio-2MMhyhfKVo). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
