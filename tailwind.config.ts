@@ -21,9 +21,9 @@ const config: Config = {
         "base-content": "rgb(var(--color-base-content) / <alpha-value>)",
         "base-contentHeading":
           "rgb(var(--color-base-contentHeading) / <alpha-value>)",
-        "bg-pink": "rgb(var(--color-bg-pink) / <alpha-value>)",
-        "bg-cyan": "rgb(var(--color-bg-cyan) / <alpha-value>)",
-        "bg-darkpurple": "rgb(var(--color-bg-darkpurple) / <alpha-value>)",
+        pink: "rgb(var(--color-pink) / <alpha-value>)",
+        cyan: "rgb(var(--color-cyan) / <alpha-value>)",
+        darkpurple: "rgb(var(--color-darkpurple) / <alpha-value>)",
       },
       fontSize: {
         button: [
@@ -96,6 +96,16 @@ const config: Config = {
       },
       boxShadow: {
         button: "0 15px 15px -10px #FF9F8E",
+      },
+      gridTemplateRows: {
+        mobile: "364px 182px 158px 182px 182px",
+        tablet: "182px 158px 182px",
+        desktop: "182px 158px;",
+      },
+      gridTemplateColumns: {
+        mobile: "repeat(2,minmax(159px,1fr))",
+        tablet: "repeat(4,minmax(159px,1fr))",
+        desktop: "repeat(6,minmax(159px,1fr))",
       },
     },
   },
