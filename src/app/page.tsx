@@ -1,5 +1,25 @@
-import Image from "next/image";
+import {
+  AboutMe,
+  Contact,
+  Hero,
+  MyWork,
+} from "@/components/pageSections/homepage";
 
 export default function Home() {
-  return <main className=""></main>;
+  return (
+    <main className="">
+      <section>
+        <Hero />
+      </section>
+      <section>
+        <AboutMe />
+      </section>
+      <section>
+        <MyWork />
+      </section>
+      <section>
+        <Contact />
+      </section>
+    </main>
+  );
 }
