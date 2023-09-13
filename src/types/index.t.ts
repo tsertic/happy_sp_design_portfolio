@@ -7,3 +7,7 @@ export interface IKnowledgeCardData {
     height: number;
   };
 }
+export interface IWorkCardData {
+  _id: string;
+  imgUrl: string;
+}

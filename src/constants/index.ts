@@ -55,3 +55,26 @@ export const knowledgeCardData = [
     },
   },
 ];
+
+export const workCardsData = [
+  {
+    _id: "0",
+    imgUrl: "/images/image-slide-1.jpg",
+  },
+  {
+    _id: "1",
+    imgUrl: "/images/image-slide-2.jpg",
+  },
+  {
+    _id: "2",
+    imgUrl: "/images/image-slide-3.jpg",
+  },
+  {
+    _id: "3",
+    imgUrl: "/images/image-slide-4.jpg",
+  },
+  {
+    _id: "4",
+    imgUrl: "/images/image-slide-5.jpg",
+  },
+];
