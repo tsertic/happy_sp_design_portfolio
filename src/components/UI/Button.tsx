@@ -12,11 +12,17 @@ export const Button: React.FC<IButton> = ({
   ariaLabel,
   colorSchema,
 }) => {
+  let styleColorSchema = "";
+  if (colorSchema === "primary")
+    styleColorSchema = "bg-primary hover:bg-primary-focus text-primary-content";
+  if (colorSchema === "secondary")
+    styleColorSchema =
+      "bg-secondary hover:bg-secondary-focus text-secondary-content";
   return (
     <Link
       href={href}
       aria-label={ariaLabel}
-      className={`bg-${colorSchema} hover:bg-${colorSchema}-focus text-${colorSchema}-content   rounded-[28px]`}
+      className={`${styleColorSchema} rounded-[28px] py-[8px] px-[28px] md:py-[14px] md:px-[45px] text-button capitalize`}
     >
       {children}
     </Link>

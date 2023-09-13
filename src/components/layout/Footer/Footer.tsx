@@ -3,7 +3,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className="mb-[32px] md:mb-[60px]">
       <FooterNavContent />
     </footer>
   );
