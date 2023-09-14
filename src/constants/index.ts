@@ -41,7 +41,7 @@ export const knowledgeCardData = [
     text: "Photography",
     img: {
       url: "/images/pattern-photography.svg",
-      width: 128,
+      width: 160,
       height: 64,
     },
   },
