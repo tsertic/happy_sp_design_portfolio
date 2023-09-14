@@ -14,7 +14,7 @@ export const AboutMe = () => {
           className="w-full h-full"
         />
       </div>
-      <div className="w-full flex flex-col gap-[24px] md:gap-[20px] justify-center items-center md:items-start max-md:text-center">
+      <div className="w-full flex flex-col gap-[24px] md:gap-[30px] justify-center items-center md:items-start max-md:text-center">
         <h2 className="text-headingMMobile md:text-headingS xl:text-headingM">
           I’m Amy, and I’d love to work on your next project
         </h2>
