@@ -1,4 +1,4 @@
-# NAME OF PROJECT
+# Happy - Single Page Design Portfolio
 
 ## Table of contents
 
@@ -21,8 +21,6 @@
 
 Users should be able to:
 
-Users should be able to:
-
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Navigate the slider using either their mouse/trackpad or keyboard
@@ -35,9 +33,12 @@ Users should be able to:
 
 ![](./pagespeed-report.png)
 
+Note:
+-95 Accessibility because "Background and foreground colors do not have a sufficient contrast ratio" , decided to follow desing 100% and not change font colors on some parts.
+
 ### Links
 
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://happy-sp-design-portfolio.vercel.app/)
 
 ## My process
 
@@ -60,7 +61,7 @@ In this project, I perfected making smooth carousel that not only move with pres
 
 ### Continued development
 
-Add tablet version, in design there was only desktop and mobile, better style for tablet version.
+Adding Database and fetching work cards from DB, adding more info about work cards on hover or click.
 
 ### Useful resources
 
