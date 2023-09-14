@@ -26,7 +26,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Navigate the slider using either their mouse/trackpad or keyboard
-<!--
 
 ### Screenshot
 
@@ -38,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://manage-landing-page-seven-theta.vercel.app/)
+- Live Site URL: [Live Site]()
 
 ## My process
 
@@ -52,12 +51,12 @@ Users should be able to:
 - [Typescropt](https://www.typescriptlang.org/) - Typescript
 - [Next.js](https://nextjs.org/) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
-- [Framer Motion](https://www.framer.com/motion/) - desktop testimonials carousel
-- [React Swipeable](https://www.npmjs.com/package/react-swipeable) - mobile testimonials carousel
+- [Framer Motion](https://www.framer.com/motion/) - work items carousel and smooth moving
+- [React Swipeable](https://www.npmjs.com/package/react-swipeable) - swipeable work items
 
 ### What I learned
 
-When faced with mobile testimonials component and how to implement finger swipe I discovered great library 'react-swipeable' , very easy to implement.
+In this project, I perfected making smooth carousel that not only move with press on button but also with dragging and left and right arrow keypress.
 
 ### Continued development
 
